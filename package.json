@@ -1,0 +1,29 @@
+{
+  "name": "dockernodecontainer",
+  "version": "1.0.0",
+  "description": "Simple Set Up For Node + Docker",
+  "main": "index.js",
+  "scripts": {
+    "start:clear-node:dev": "nodemon clear-node/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiMelnychukDev/dockerNodeContainer.git"
+  },
+  "keywords": [
+    "Node",
+    "Docker",
+    "Node",
+    "Typescript"
+  ],
+  "author": "Vitalii Melnychuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiMelnychukDev/dockerNodeContainer/issues"
+  },
+  "homepage": "https://github.com/VitaliiMelnychukDev/dockerNodeContainer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
